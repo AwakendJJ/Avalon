@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Boxicons -->
     <link href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css" rel="stylesheet">
+    <!-- Font Awsome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <!-- Glide js -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.core.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.theme.css">
@@ -18,19 +20,29 @@
   <body>
     <!-- Header -->
     <header class="header" id="header">
-  
+
+      <div class="top-nav">
+        <div class="container d-flex">
+          <p>Order Online Or Call Us: (+251) 9-123-456-78</p>
+          <ul class="d-flex">
+            <button>Sign Up</button>
+            <button id="push">Log In</button>
+          </ul>
+        </div>
+      </div>
+
       <div class="navigation">
         <div class="nav-center container d-flex"> <a href="index.html" class="logo">
-            <h1>Avalon</h1>
+            <h1 style="color: #0B304C;" >Avalon</h1>
           </a>
           <ul class="nav-list d-flex">
-            <li class="nav-item"> <a href="index.html" class="nav-link">Home</a>
+            <li class="nav-item"> <a href="index.html" class="nav-link" style="color: #0B304C;">Home</a>
             </li>
-            <li class="nav-item"> <a href="product.html" class="nav-link">Paintings</a>
+            <li class="nav-item"> <a href="product.html" class="nav-link" style="color: #0B304C;">Paintings</a>
             </li>
-            <li class="nav-item"> <a href="#about" class="nav-link">About us</a>
+            <li class="nav-item"> <a href="#about" class="nav-link" style="color: #0B304C;">About us</a>
             </li>
-            <li class="nav-item"> <a href="#contact" class="nav-link">Contact
+            <li class="nav-item"> <a href="#contact" class="nav-link" style="color: #0B304C;">Contact
                 us</a> </li>
 
             <!-- Icons -->
@@ -59,46 +71,34 @@
 
   
       <!-- Heroooo -->
-      <div class="hero" style="background-image: url(/img/0b6f9ff0813c8c68af4796e2558bd9c1.jpg);">
-        <div class="glide" id="glide_1">
-          <div class="glide__track" data-glide-el="track">
-            <ul class="glide__slides">
-              <li class="glide__slide">
-                <div class="center">
-                  <div class="left"> <span class="">New Inspiration 2024</span>
-                    <h1 class="">Avalon!</h1>
-                    <p>Supporting Ethiopian Artists By Helping Them Sell <br>
-                      <br> To The Global Market</p>
-                    <a href="#" class="hero-btn">SHOP NOW</a> </div>
-                  <div class="right">
-                    <img class="img1" src="/img/0b6f9ff0813c8c68af4796e2558bd9c1.jpg" alt="">
-                  </div>
-                </div>
-              </li>
-            </ul>
+       <div class="heroo">
+          <div class="heroo-content">
+          <h1>Avalon!</h1>
+          <h1>Online Art Gallery</h1>
+          <p>Supporting Ethiopian Artists By Helping Them Sell To The Global Market</p>
+          <a href="#" class="">SHOP NOW</a> </div>
           </div>
-        </div>
-      </div>
+      
     </header>
 
 
     <!-- Categories Section -->
     <section class="section category">
-      <h1>Some of our Categories</h1>
+      <h1 style="color: #0B304C;">Some Of Our Art Categories</h1>
       <div class="cat-center">
         <div class="cat"> <img src="/img/0b6f9ff0813c8c68af4796e2558bd9c1.jpg" alt="">
-          <div>
-            <p>Cultural Arts</p>
+          <div >
+            <p style="color: #0B304C;">Cultural Arts</p>
           </div>
         </div>
         <div class="cat"> <img src="/img/Contemporary-4.webp" alt="">
           <div>
-            <p>Contemporary Arts</p>
+            <p style="color: #0B304C;">Contemporary Arts</p>
           </div>
         </div>
         <div class="cat"> <img src="/img/copy-of-work-2.webp" alt="">
           <div>
-            <p>Charcoal Arts</p>
+            <p style="color: #0B304C;">Charcoal Arts</p>
           </div>
         </div>
       </div>
@@ -111,8 +111,8 @@
     <section class="section new-arrival">
 
       <div class="title">
-        <h1>Shop</h1>
-        <p>All the latest picked Painting and Arts from our store</p>
+        <h1 style="color: #0B304C;" >Shop</h1>
+        <p style="color: #0B304C;" >All the latest picked Painting and Arts from our store</p>
       </div>
 
       <div class="product-center">
@@ -262,10 +262,9 @@
       <div class="row">
         <div class="col">
 
-          <h2>EXCELLENT SUPPORT</h2>
-          <p>We love our customers and they can reach us any time of day we will
-            be at your service 24/7</p>
-          <a href="" class="btn btn-1">Contact</a> </div>
+          <h2>Support Ethiopian Artists</h2>
+          <p>Support Ethiopian Artists By Pusrshaing Thier Arts</p>
+          <a href="" class="btn btn-1">Shop</a> </div>
 
         <div class="col">
           <h1>Sign Up For Our Newsletter</h1>
@@ -278,18 +277,40 @@
       </div>
     </section>
 
+  <!-- Discription Cards -->
+   <div class="discription-cards">
+    <div class="card-container">
+      <div class="card">
+        <i class="icon fas fa-globe"></i>
+        <p>World Wide Delivery</p>
+      </div>
+      <div class="card">
+        <i class="icon fas fa-paint-brush"></i>
+        <p>Unique Arts</p>
+      </div>
+      <div class="card">
+        <i class="icon fas fa-shopping-cart"></i>
+        <p>Online Order</p>
+      </div>
+      <div class="card">
+        <i class="icon fas fa-credit-card"></i>
+        <p>Variety of Payment Methods</p>
+      </div>
+    </div>
+   </div>
+  
+
 
     <!-- Footer -->
-    <footer class="footer" style="margin-top: 50rem;">
+    <footer class="footer" >
       <div class="row">
         <div class="col d-flex">
           <h4>INFORMATION</h4>
-          <a href="">About us</a> <a href="">Contact Us</a> <a href="">Term
-            &amp; Conditions</a> <a href="">Shipping Guide</a> </div>
+          <a href="">About us</a> <a href="">Contact Us</a> <a href=""></a> <a href=""></a> </div>
         <div class="col d-flex">
           <h4>USEFUL LINK</h4>
-          <a href="">Online Store</a> <a href="">Customer Services</a> <a href="">Promotion</a>
-          <a href="">Top Brands</a> </div>
+          <a href=""></a> <a href=""></a> <a href=""></a>
+          <a href=""></a> </div>
         <div class="col d-flex"> <span><i class="bx bxl-facebook-square"></i></span>
           <span><i class="bx bxl-instagram-alt"></i></span> <span><i class="bx bxl-github"></i></span>
           <span><i class="bx bxl-twitter"></i></span> <span><i class="bx bxl-pinterest"></i></span>
